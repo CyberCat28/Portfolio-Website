@@ -1,0 +1,116 @@
+.application-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-app {
+    width: 46vw;
+    font-size: 400%;
+    font-weight: 700;
+
+    line-height: 6vw;
+    transform: translate(10vw, 6vw);
+}
+
+.color-app {
+    color: #984CFF;
+
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.images-application-container {
+    width: 38.5vw;
+    height: 22.5vw;
+
+    transform: translate(3vw, -17vw);
+}
+
+.app-shape-img, .bubble-text-img {
+    width: 40vw;
+}
+
+.app-shape-img {
+    transform: translate(-1vw, -2vw);
+}
+
+.app-people-img{
+    width: 34vw;
+
+    transform: translate(2.5vw, -51vw);
+}
+
+.bubble-text-img {
+    transform: translate(-1vw, -29vw);
+}
+
+.email-buttons {
+    width: 36.5vw;
+    height: 38.5vw;
+
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(52vw, -2vw);
+}
+
+.user-info-container {
+    width: 36.5vw;
+    gap: 2vw;
+    line-height: 2vw;
+
+    display: flex;
+}
+
+.message-container {
+    width: 36.5vw;
+    height: 17vw;
+    margin-top: 1vw;
+
+}
+
+.your-name, .your-email, .your-mess {
+    font-size: 112.5%;
+    font-weight: 700;
+}
+
+input {
+    background-color: #974cff5b;
+    border-radius: 0.5vw;
+}
+
+::placeholder {
+    color: #ffffff73;
+}
+
+#name-input, #email-input {
+    width: 17.2vw;
+    height: 3vw;
+    padding: 1vw;
+}
+
+#mess-input {
+    width: 36.4vw;
+    height: 15vw;
+    padding: 1vw;
+    margin-top: 0.5vw;
+}
+
+.send-mess-button {
+    width: 10vw;
+    height: 5vh;
+    margin-top: 1.5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #974cff5b;
+    border-radius: 2vw;
+}
+
+.send-mess-button:hover {
+    background-color: #984CFF;
+
+    scale: 115%;
+}

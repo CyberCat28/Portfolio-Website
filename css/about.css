@@ -1,0 +1,50 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-about {
+    width: 30%;
+    font-size: 537.5%;
+    font-weight: 700;
+    line-height: 6vw;
+
+    transform: translate(6vw, 8vw);
+}
+
+.color-about {
+    color: #984CFF;
+
+    font-size: 5.375rem;
+    font-weight: 700;
+}
+
+.about-description {
+    width: 35%;
+    height: 45%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    transform: translate(6vw, 10vw);
+}
+
+.images-about-container {
+    width: 38.5vw;
+    height: 38.5vw;
+
+    transform: translate(49vw, -7vw);
+}
+
+.windows-about-img, .woman-about-img {
+    width: 45vw;
+}
+
+.windows-about-img {
+    transform: translate(-4vw, -4vw);
+}
+
+.woman-about-img {
+    transform: translate(-4vw, -48.5vw);
+}

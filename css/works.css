@@ -1,0 +1,122 @@
+.works-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-works {
+    width: 46vw;
+    font-size: 537.5%;
+    font-weight: 700;
+
+    line-height: 6vw;
+
+    transform: translate(13.5vw, 9vw);
+}
+
+.color-works {
+    color: #984CFF;
+
+    font-size: 5.375rem;
+    font-weight: 700;
+}
+
+.works-buttons {
+    width: 33vw;
+    height: 5vw;
+    
+    gap: 2vw;
+    line-height: 6vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transform: translate(13.5vw, 10vw);
+}
+
+.all-button {
+    width: 5vw;
+    height: 5vh;
+}
+
+.site-button {
+    width: 6vw;
+    height: 5vh;
+}
+
+.graphic-button {
+    width: 17vw;
+    height: 5vh;
+}
+
+.web-button {
+    width: 14vw;
+    height: 5vh;
+}
+
+.all-button, .site-button, .graphic-button, .web-button {
+    font-size: 112.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    backdrop-filter: blur(1.5px);
+    background-color: #974cff5b;
+    border-radius: 2vw;
+}
+
+.works-container {
+    width: 92vw;
+    height: 100vh;
+
+    background-image: url(/images/works/works-shape.svg);
+    background-repeat: repeat;
+}
+
+.cards-container {
+    width: 65vw;
+    height: 26vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2.5vw;
+
+    transform: translate(13.5vw, 12vw);
+}
+
+.card-site, .card-graphic-design, .card-web-design {
+    width: 20vw;
+    height: 26vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #974cff5b;
+    backdrop-filter: blur(1.5px);
+    border-radius: 1vw;
+}
+
+.all-button:hover, .site-button:hover, .graphic-button:hover, .web-button:hover, .card-site:hover, .card-graphic-design:hover, .card-web-design:hover {
+    background-color: #984CFF;
+
+    scale: 115%;
+}
+
+.site-img {
+    width: 14vw;
+    height: 15vh;
+}
+
+.graphic-design-img {
+    width: 20vw;
+    height: 17vh;
+}
+
+.web-design-img {
+    width: 19vw;
+    height: 16vh;
+}
